@@ -1,16 +1,28 @@
-# final_grader
+# Grade Calculator Pro
 
-A new Flutter project.
+A professional Flutter application for calculating student grades from Excel files.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- 📱 Clean, modern UI with gradient design
+- 📊 Upload Excel files with student grades
+- ⚙️ Configurable subject count and grade scale
+- 📈 Automatic grade letter assignment (A, B, C, D, F)
+- 📄 Export results to PDF
+- 🎯 Class average calculations
+- 🔄 Modular and extensible architecture
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The application follows SOLID principles with:
+- **Factory Pattern** for grade parsing
+- **Provider Pattern** for state management
+- **Abstract Classes** for extensibility
+- **Separation of Concerns** with clear module boundaries
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+```bash
+flutter pub get
+flutter run
+
