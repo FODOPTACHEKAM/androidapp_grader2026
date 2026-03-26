@@ -26,3 +26,4 @@ The application follows SOLID principles with:
 flutter pub get
 flutter run
 
+//testing my commits
