@@ -26,4 +26,5 @@ The application follows SOLID principles with:
 flutter pub get
 flutter run
 
-//core and models
+//final
+//
